@@ -135,10 +135,6 @@ Give users the ability to change or reset their password independently, if their
 
 Use the [Plan your self-service password reset deployment](https://aka.ms/SSPRSetupGuide) guide to receive relevant articles and instructions for configuring the appropriate Azure portal options to help you deploy SSPR in your environment.
 
-### Active Directory Federation Services (AD FS) deployment advisor
-
-The [AD FS deployment advisor](https://aka.ms/adfsguidance) provides you with step-by-step guidance on deploying an on-premises AD FS infrastructure that authenticates users for Microsoft 365 and Office 365 services. With this guide, your organization can review AD FS components and requirements, acquire and install SSL certificates that are necessary for deployment, and install a required web application proxy server.
-
 ## Guides for security and compliance
 
 ### Security analyzer
@@ -172,9 +168,13 @@ The [Microsoft Defender for Office 365 setup guide](https://aka.ms/oatpsetup) sa
 
 The [Microsoft Defender for Identity setup guide](https://aka.ms/DefenderforIdentitysetup) provides security solution set-up guidance to identify, detect, and investigate advanced threats that might compromise user identities. These include detecting suspicious user activities and malicious insider actions directed at your organization. You’ll create a Defender for Identity instance, connect to your organization's Active Directory, and then set up sensors, alerts, notifications, and configure your unique portal preferences.
 
-### Insider risk solutions setup guide
+### Microsoft Defender for Cloud Apps setup guide
 
-The [Insider risk solutions setup guide](https://aka.ms/Insiderrisksetup) helps you protect your organization against insider risks that can be challenging to identify and difficult to mitigate. Insider risks occur in a variety of areas and can cause major problems for organizations, ranging from the loss of intellectual property to workplace harassment, and more.
+The [Microsoft Defender for Cloud Apps setup guide](https://aka.ms/cloudappsecuritysetup) provides easy to follow deployment and management guidance to set up your Cloud Discovery solution. With Cloud Discovery, you'll integrate your supported security apps, and then you'll use traffic logs to dynamically discover and analyze the cloud apps that your organization uses. You'll also set up features available through the Defender for Cloud Apps solution, including threat detection policies to identify high-risk use, information protection policies to define access, and real-time session controls to monitor activity. With these features, your environment gets enhanced visibility, control over data movement, and analytics to identify and combat cyberthreats across all your Microsoft and third party cloud services.
+
+### Microsoft Purview Communication Compliance and Insider Risk Management setup guide
+
+The [Microsoft Purview Communication Compliance and Insider Risk Management setup guide](https://aka.ms/Insiderrisksetup) helps you protect your organization against insider risks that can be challenging to identify and difficult to mitigate. Insider risks occur in a variety of areas and can cause major problems for organizations, ranging from the loss of intellectual property to workplace harassment, and more.
 
 The solutions in this guide will help you gain visibility into user activities, actions, and communications with native signals and enrichments from across your organization:
 
@@ -189,17 +189,13 @@ Get an overview of the capabilities you can apply to your information protection
 
 The [Microsoft Purview Data Lifecycle Management setup guide](https://aka.ms/migsetupguide) provides you with the information you'll need to set up and manage your organization's governance strategy, to ensure that your data is classified and managed according to the specific lifecycle guidelines you set. With this guide, you'll learn how to create, auto-apply, or publish retention labels, retention label policies, and retention policies that are applied to your organization's content and compliance records. You'll also get information on importing CSV files with a file plan for bulk scenarios or for applying them manually to individual documents.
 
-### Microsoft Defender for Cloud Apps setup guide
+### Microsoft Purview Audit setup guide
 
-The [Microsoft Defender for Cloud Apps setup guide](https://aka.ms/cloudappsecuritysetup) provides easy to follow deployment and management guidance to set up your Cloud Discovery solution. With Cloud Discovery, you'll integrate your supported security apps, and then you'll use traffic logs to dynamically discover and analyze the cloud apps that your organization uses. You'll also set up features available through the Defender for Cloud Apps solution, including threat detection policies to identify high-risk use, information protection policies to define access, and real-time session controls to monitor activity. With these features, your environment gets enhanced visibility, control over data movement, and analytics to identify and combat cyberthreats across all your Microsoft and third party cloud services.
+The [Microsoft Purview Audit setup guide](https://aka.ms/auditsolutionsetup) provides an integrated solution to help organizations effectively respond to security events, forensic investigations, and compliance obligations. When you use the auditing solutions in Microsoft 365, you can search the audit log for activities performed in different Microsoft 365 services.
 
-### Audit solutions setup guide
+### Microsoft Purview eDiscovery setup guide
 
-The [Microsoft 365 auditing solutions guide](https://aka.ms/auditsolutionsetup) provides an integrated solution to help organizations effectively respond to security events, forensic investigations, and compliance obligations. When you use the auditing solutions in Microsoft 365, you can search the audit log for activities performed in different Microsoft 365 services.
-
-### eDiscovery solutions setup guide
-
-eDiscovery is the process of identifying and delivering electronic information that can be used as evidence in legal cases. The eDiscovery solutions setup guide assists in the use of eDiscovery tools in Microsoft Purview that allow you to search for content in Exchange Online, OneDrive for Business, SharePoint Online, Microsoft Teams, Microsoft 365 Groups, and Yammer communities.
+eDiscovery is the process of identifying and delivering electronic information that can be used as evidence in legal cases. The [Microsoft Purview eDiscovery setup guide](https://aka.ms/ediscoverysolutionsetupassists) assists in the use of eDiscovery tools in Microsoft Purview that allow you to search for content in Exchange Online, OneDrive for Business, SharePoint Online, Microsoft Teams, Microsoft 365 Groups, and Yammer communities.
 
 ## Guides for collaboration
 
